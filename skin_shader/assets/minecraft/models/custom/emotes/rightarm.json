@@ -1,0 +1,11 @@
+{
+	"parent": "builtin/entity",
+	"textures":{"particle":"block/soul_sand"},
+	"display":{
+		"thirdperson_righthand":{
+			"scale":[0.46875,1.40625,0.46875],
+			"translation":[-0.06425, -2.0, 11.875],
+			"rotation":[90.0, 180.0, 0.0]
+		}
+	}
+}

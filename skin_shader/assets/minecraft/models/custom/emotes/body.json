@@ -1,0 +1,25 @@
+{
+	"parent": "builtin/entity",
+	"textures":{"particle":"block/soul_sand"},
+	"display":{
+		"thirdperson_righthand":{
+			"scale":[0.9375,1.40625,0.46875],
+			"translation":[-1.0, -2.0, 21.25],
+			"rotation":[90.0, 180.0, 0.0]
+		}
+	},
+	"elements": [
+		{
+			"from": [0, 0, 8],
+			"to": [16, 16, 8],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"south": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#0"},
+				"up": {"uv": [0, 0, 16, 0], "texture": "#0"},
+				"down": {"uv": [0, 0, 16, 0], "texture": "#0"}
+			}
+		}
+	]
+}

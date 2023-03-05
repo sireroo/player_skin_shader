@@ -1,0 +1,78 @@
+{
+	"parent": "minecraft:item/template_skull",
+	"textures": {
+		"particle": "block/soul_sand"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "minecraft:custom/emotes/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "minecraft:custom/emotes/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "minecraft:custom/emotes/rightarm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "minecraft:custom/emotes/leftarm"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "minecraft:custom/emotes/rightleg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "minecraft:custom/emotes/leftleg"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "minecraft:custom/emotes/rightarm_slim"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 8
+			},
+			"model": "minecraft:custom/emotes/leftarm_slim"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 100
+			},
+			"model": "minecraft:custom/emotes/tinyhead"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 99
+			},
+			"model": "minecraft:custom/emotes/tester1"
+		}
+	],
+	"aj": {
+		"includedRigs": {
+			"ed7be4bd-8cef-fb6d-c967-88a262bb86cc": {
+				"name": "player_slim",
+				"usedIDs": [
+					[1, 6]
+				]
+			}
+		}
+	}
+}
