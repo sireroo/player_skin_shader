@@ -1,3 +1,4 @@
+# This is old and will not be updated, please use [bradlyq's stable player display](https://github.com/bradleyq/stable_player_display) instead
 # player_skin_shader
 
 A resource pack that uses a shader (rendertype_entity_translucent) to change the UV of player heads to the different body parts. This also contains models to change player heads to the shapes and sizes of each body part, and some textures to prevent the shader from affecting other entities.
